@@ -1,3 +1,15 @@
-h1, h2 {
+h1,
+h2 {
   font-family: Lato;
+}
+/**QUESTION 5. Define and Use variables in css.  **/
+
+/*Add a color variable 'main-color'*/
+
+p {
+  color: grey; /*Use 'main-color' variable here*/
+}
+
+table {
+  color: grey; /*Use 'main-color' variable here*/
 }

@@ -6,7 +6,7 @@ h2 {
 
 /*Add a color variable 'main-color'*/
 
-p {
+#colorVar {
   color: grey; /*Use 'main-color' variable here*/
 }
 

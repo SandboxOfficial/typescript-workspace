@@ -1,7 +1,6 @@
 import './style.css';
 
 const appDiv: HTMLElement = document.getElementById('app');
-appDiv.innerHTML = `<h1>Typescript Workspace</h1>`;
 
 /**QUESTION 1. Deep Clone DOM elements without any third-party plugins***/
 let cloneMyTable = () => {

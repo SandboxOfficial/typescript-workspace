@@ -3,7 +3,6 @@ import './style.css';
 const appDiv: HTMLElement = document.getElementById('app');
 appDiv.innerHTML = `<h1>Typescript Workspace</h1>`;
 
-
 /**QUESTION 1. Deep Clone DOM elements without any third-party plugins***/
 let cloneMyTable = () => {
   //WRITE YOUR LOGIC HERE
@@ -30,7 +29,6 @@ appDiv.innerHTML += `<p>Output: ${JSON.stringify(teen)}</p>`;
 /**QUESTION 2.b Get the total income of all the users.   **/
 appDiv.innerHTML += `<h3>2.b) Get the total income of all the users. </h3>`;
 appDiv.innerHTML += `<p>Output: ${JSON.stringify(totalIncome)}</p>`;
-
 
 /**QUESTION 3 **/
 

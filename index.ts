@@ -41,7 +41,7 @@ const basicConfig = { host: 'http:google.com' };
 const extendedConfig = {};
 appDiv.innerHTML += `<h3>3.a) Extend the ‘baseConfig’ object with new ‘port’ attribute without mutating the ‘baseConfig’</h3>`;
 appDiv.innerHTML += `<p>basicConfig: ${JSON.stringify(basicConfig)}</p>`;
-appDiv.innerHTML += `<p>basicConfig: ${JSON.stringify(extendedConfig)}</p>`;
+appDiv.innerHTML += `<p>extendedConfig: ${JSON.stringify(extendedConfig)}</p>`;
 /***QUESTION 3.b) Write a function to extend 'basicConfig' dynamically by using a dynamic key and object as a value? 
   * Example output 
   basicConfig: {host: 'http:google.com'}
@@ -61,6 +61,6 @@ extendedDynamicConfig = extendDynamicConfig(extendedDynamicConfig, 'My key2', {
 
 appDiv.innerHTML += `<h3>3.b) Write a function to extend 'basicConfig' dynamically by using a dynamic key and object as a value</h3>`;
 appDiv.innerHTML += `<p>basicConfig: ${JSON.stringify(basicConfig)}</p>`;
-appDiv.innerHTML += `<p>basicConfig: ${JSON.stringify(
+appDiv.innerHTML += `<p>extendedDynamicConfig: ${JSON.stringify(
   extendedDynamicConfig
 )}</p>`;

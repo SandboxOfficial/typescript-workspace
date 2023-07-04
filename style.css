@@ -10,6 +10,7 @@ h2 {
   color: grey; /*Use 'main-color' variable here*/
 }
 
+p,
 table {
   color: grey; /*Use 'main-color' variable here*/
 }

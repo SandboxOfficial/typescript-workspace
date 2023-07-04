@@ -2,10 +2,6 @@
 
 [Edit on StackBlitz ⚡️](https://stackblitz.com/edit/typescript-r31o2z)
 
-# typescript-workspace
-
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/typescript-r31o2z)
-
 JAVASCRIPT & CSS: Edit on StackBlitz ⚡️
 
 1. Deep Clone DOM elements without any third-party plugins

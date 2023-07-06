@@ -22,7 +22,7 @@ let teen; //Write your logic here
 let totalIncome; //Write your logic here
 
 /**QUESTION 2.a Return all users with Age < 20  **/
-appDiv.innerHTML += `<h3>2.a) Return all users with Age < 20 </h3>`;
+appDiv.innerHTML += `<h3>2.a) Return all users' FullName with Age < 20.</h3>`;
 appDiv.innerHTML += `<p>Output: ${JSON.stringify(teen)}</p>`;
 
 /**QUESTION 2.b Get the total income of all the users.   **/
